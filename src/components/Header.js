@@ -1,4 +1,3 @@
-import logo from '../images/Chaincrib.png';
 import discord from '../images/discord.png';
 import menuButton from '../images/menu.png';
 
@@ -16,7 +15,7 @@ function toggleMenu() {
 
 function Header() {
     return (
-        <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10">
+        <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-0">
             <div>
                 {/* <img src={logo} alt="logo" /> */}
                 <h1 className='logo text-[40px] font-[900]'>Chaincrib</h1>

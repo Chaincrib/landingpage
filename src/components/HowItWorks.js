@@ -6,9 +6,9 @@ function HowItWorks() {
     return (
         <section className='-mt-12'>
             <div className="text-center max-[800px]:text-start">
-                <h2 className="text-[#85B5F8] text-[40px] font-semibold leading-loose">How ChainCrib Works</h2>
-                <p className="text-white font-medium text-[28px] py-2">Imagine earning rental income from prime global properties without owning them outright.</p>
-                <p className="text-white text-[20px]">ChainCrib makes this dream a reality through the power of NFTs on the Cardano blockchain.</p>
+                <h2 className="text-[#85B5F8] text-[40px] font-semibold leading-loose max-[800px]:text-[30px] font-ibm max-[800px]:font-[600]">How ChainCrib Works</h2>
+                <p className="text-white font-medium text-[28px] max-[800px]:text-[18px] py-2 font-source">Imagine earning rental income from prime global properties without owning them outright.</p>
+                <p className="text-white text-[20px] max-[800px]:text-[16px] font-source">ChainCrib makes this dream a reality through the power of NFTs on the Cardano blockchain.</p>
             </div>
             <div className="flex max-[800px]:flex-col justify-center gap-x-5 max-[800px]:gap-x-0 max-[800px]:gap-y-10 my-12">
                 <div className="w-[417px] max-[800px]:w-full h-[433px] rounded-xl bg-white">

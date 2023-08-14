@@ -12,7 +12,7 @@ body{
 }
 
 .font-source{
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans 3';
 }
 
 .letter_2{
@@ -34,5 +34,17 @@ section{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+@media (max-width: 800px) {
+    .logo{
+        background: linear-gradient(91.51deg, #1656B9 -11.28%, rgba(129, 116, 255, 0.81) 116.57%);
+        font-family: 'Orbitron';
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+    }
 }
 
