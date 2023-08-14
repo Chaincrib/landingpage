@@ -1,8 +1,8 @@
 function FAQ() {
     return (
-        <section>
-            <h2 className="text-[#85B5F8] text-3xl font-semibold text-center mb-5">Frequently asked questions</h2>
-            <p className="text-white text-center">Everything you need to know about  Chaincrib .</p>
+        <section className="mt-64">
+            <h2 className="text-[#85B5F8] text-[36px] font-semibold text-center mb-5">Frequently asked questions</h2>
+            <p className="text-[#FFFFFF] text-center text-[20px]">Everything you need to know about  Chaincrib .</p>
 
 
 

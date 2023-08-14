@@ -16,7 +16,7 @@ function toggleMenu() {
 
 function Header() {
     return (
-        <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between sticky top-0 max-[800px]:px-6 mb-10 backdrop-blur-xl">
+        <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10">
             <div>
                 <img src={logo} alt="logo" />
             </div>
@@ -27,9 +27,9 @@ function Header() {
                 <a href="/" target='_blank' className="px-[28px] py-[12px] h-12 border rounded-full border-[#85B5F8]">FAQ</a>
             </div>
             <div className='max-[800px]:hidden'>
-                <a href="/" className="px-[28px] py-[12px] rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center">
-                    <span className='font-bold'>Join Discord</span>
-                    <img src={discord} alt="discord" className='w-4 h-4' />
+                <a href="/" className="px-[50px] py-[12px] rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center">
+                    <span className='text-xl'>Join Discord</span>
+                    <img src={discord} alt="discord" className='w-7 h-6' />
                 </a>
             </div>
             <div className='hidden max-[800px]:block'>
