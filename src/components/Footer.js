@@ -66,7 +66,7 @@ function Footer() {
                 <div className='hidden max-[800px]:block max-[800px]:mt-10 max-[800px]:border-t max-[800px]:pt-5'>
                     <div className="flex gap-3">
                         <img src={logo} alt="" className='h-10' />
-                        <img src={chaincrib} alt="" className='h-8' />
+                        <h1 className='logo'>Chaincrib</h1>
                     </div>
                     <span className='text-white italic font-sans leading-10 text-xs ml-10'>Real Estate Investment, Simplified.</span>
                 </div>

@@ -23,3 +23,16 @@ section{
     margin-top: 200px;
     margin-bottom: 200px;
 }
+
+.accordion-content {
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.logo{
+    background: linear-gradient(91.51deg, #1656B9 -11.28%, rgba(129, 116, 255, 0.81) 116.57%);
+    font-family: 'Orbitron';
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
