@@ -54,7 +54,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='mt-10'>
-                    <h3 className='text-lg mb-5 font-source text-[14px]'>Contact Us</h3>
+                    <h3 className='text-lg mb-5 font-source text-[14px] font-[600]'>Contact Us</h3>
                     <p>ChainCrib Holdings Limited</p>
                     <p>Zug, Switzerland</p>
                     <p>Email: <a href="mailto:info@chaincrib.com" className='underline-offset-1'>info@chaincrib.com</a></p>
