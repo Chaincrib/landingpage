@@ -3,7 +3,7 @@ import heroImgRight from '../images/hero-img-right.png';
 
 function Hero() {
     return (
-        <section className='max-[800px]:pt-0 max-[800px]:mt-0 mt-40'>
+        <section className='max-[800px]:pt-0 max-[800px]:mt-0 mt-40 hero'>
             <div className="w-full mb-10 max-[800px]:px-2 flex flex-col items-center justify-center text-white text-center max-[800px]:text-start">
                 <h1 className="text-[60px] max-[800px]:text-4xl font-bold mb-4 font-ibm">Invest In Prime Rental Properties</h1>
                 <p className="text-[20px] px-52 max-[800px]:px-0 text-[#CCCCCC] font-source">Unlock global high-return locations, invest fractionally in real estate with ChainCrib, and earn rental income in just 45 days.</p>

@@ -24,6 +24,12 @@ section{
     margin-bottom: 200px;
 }
 
+.hero{
+    background-image: url(./images/Light\ accent.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
 .accordion-content {
     transition: max-height 0.3s ease-out, padding 0.3s ease;
 }

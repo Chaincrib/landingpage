@@ -6,7 +6,33 @@ function FAQ() {
             <p className="text-[#CCCCCC] text-center text-[20px] max-[800px]:text-[18px] max-[800px]:px-5 font-source">Everything you need to know about  Chaincrib .</p>
 
             <div className="grid grid-cols-2">
-
+            <div className="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+            </div>
+            <div className="collapse-content"> 
+                <p>hello</p>
+            </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+            </div>
+            <div className="collapse-content"> 
+                <p>hello</p>
+            </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+            </div>
+            <div className="collapse-content"> 
+                <p>hello</p>
+            </div>
+            </div>
             </div>
 
         </section>

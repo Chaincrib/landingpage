@@ -1,5 +1,6 @@
 import discord from '../images/discord.png';
 import menuButton from '../images/menu.png';
+import logo from '../images/logo.png';
 
 function toggleMenu() {
     const menu = document.getElementById('menu');
@@ -17,7 +18,8 @@ function Header() {
     return (
         <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-0">
             <div>
-                <a href="/">
+                <a href="/" className='flex gap-5 items-center'>
+                    <img src={logo} alt="logo" className='w-12 h-12' />
                     <h1 className='logo text-[40px] font-[900] max-[800px]:text-[24px]'>Chaincrib</h1>
                 </a>
             </div>
