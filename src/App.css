@@ -28,6 +28,9 @@ section{
 
 .hero{
     background-image: url(./images/Light\ accent.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-right: -200px;
 }
 
 .accordion-content {
