@@ -30,7 +30,7 @@ section{
     background-image: url(./images/Light\ accent.png);
     background-repeat: no-repeat;
     background-position: right top;
-    padding-right: -200px;
+    background-origin: padding-box;
 }
 
 .accordion-content {
