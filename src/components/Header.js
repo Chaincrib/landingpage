@@ -17,8 +17,9 @@ function Header() {
     return (
         <div className="w-full h-[100px] bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-0">
             <div>
-                {/* <img src={logo} alt="logo" /> */}
-                <h1 className='logo text-[40px] font-[900]'>Chaincrib</h1>
+                <a href="/">
+                    <h1 className='logo text-[40px] font-[900] max-[800px]:text-[24px]'>Chaincrib</h1>
+                </a>
             </div>
             <div id='menu' className="text-white flex gap-x-8 max-[800px]:hidden">
                 <a href="/" target='_blank' className="px-[28px] py-[12px] h-12 border rounded-full border-[#85B5F8]">About</a>

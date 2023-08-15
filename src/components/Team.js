@@ -14,9 +14,9 @@ function Team() {
                         <div className="w-[350px] h-[350px] rounded-full bg-gradient-to-br from-[#85B5F8] to-[#8174FF] flex justify-center items-center">
                             <img src={ceo} alt="ceo" className='w-[270px] h-[270px]' />
                         </div>
-                        <img src={polygon} alt="" className='w-16 h-16 absolute top-10 right-0' />
+                        <img src={polygon} alt="" className='w-16 h-16 absolute top-10 right-0 max-[800px]:-right-10' />
                     </div>
-                    <img src={star} alt="" className='w-[50px] h-[50px] absolute bottom-2' />
+                    <img src={star} alt="" className='w-[50px] h-[50px] absolute bottom-2 max-[800px]:bottom-10 max-[800px]:w-[30px] max-[800px]:h-[30px]' />
                     <div className='text-center mt-10'>
                         <h2 className='text-[32px] text-white'>Irene</h2>
                         <p className='text-[#CCCCCC] text-[20px]'>Co-Founder / CEO</p>
