@@ -3,8 +3,10 @@
 }
 
 body{
-    background-image: url(./images//Background\ pattern.png);
+    background-image: url(./images//Ellipse\ 2.png), url(./images//Background\ pattern.png);
     background-color: #110F27;
+    background-position: center 1180px;
+    background-repeat: no-repeat;
 }
 
 .font-ibm{
@@ -26,8 +28,6 @@ section{
 
 .hero{
     background-image: url(./images/Light\ accent.png);
-    background-position: right top;
-    background-repeat: no-repeat;
 }
 
 .accordion-content {

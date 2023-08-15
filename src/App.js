@@ -12,9 +12,9 @@ function App() {
   <div>
     <Header  />
     <div className="App px-20 max-[800px]:px-5">
-        <Hero  />
-        <About  />
-        <HowItWorks  />
+          <Hero  />
+          <About  />
+          <HowItWorks  />
         <Team  />
         <FAQ  />
         <Footer  />
