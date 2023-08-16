@@ -46,6 +46,38 @@ section{
     font-size: 40px;
 }
 
+
+summary:first-of-type {
+    list-style-type: none;
+}
+ 
+summary:after {
+  border-radius: 5px;
+  content: '+' ;
+  color: #FFFFFF;
+  float: right;
+  font-size: 30px;
+  /* margin: -7px 12px 0 0; */
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+details[open] summary:after {
+  content: "-";
+   font-size: 40px;
+}
+
+.hr{
+    width: 95%;
+    margin-inline: auto;
+}
+
 @media (max-width: 800px) {
     .logo{
         background: linear-gradient(91.51deg, #1656B9 -11.28%, rgba(129, 116, 255, 0.81) 116.57%);
