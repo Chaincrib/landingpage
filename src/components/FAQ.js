@@ -5,16 +5,12 @@ function FAQ() {
             <p className="text-[#CCCCCC] text-center text-[20px] max-[800px]:text-[18px] max-[800px]:px-5 font-source">Everything you need to know about  Chaincrib .</p>
 
             <div className="">
-                <div className="w-3/4 mx-auto">
+                <div className="w-3/4 max-[800px]:w-full mx-auto">
                 <div className="w-full flex items-center justify-center h-screen ">
                     <div className="w-full px-8 mx-auto mt-2 space-y-1 ">
                         <details className="rounded-lg py-5">
                             <summary className="px-4 py-2 text-[18px] cursor-pointer text-[#FFFFFF] font-source font-[600]">What is ChainCrib?</summary>
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#CCCCCC" className="w-10 h-10">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                            
+
                             <div className="">
                                 <p className="leading-6 px-3 py-2 text-[#CCCCCC] font-source text-[16px] font-[400]">
                                 ChainCrib is a pioneering web3 real estate platform allowing users to invest in high-return rental properties without full ownership.
