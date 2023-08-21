@@ -18,7 +18,7 @@ function Header() {
     return (
         <div className="w-full bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-0">
             <div>
-                <a href="/" className='flex gap-5 items-center'>
+                <a href="/" className='flex gap-2 items-center'>
                     <img src={logo} alt="logo" className='w-10 h-10' />
                     <h1 className='logo text-[20px] font-[900] max-[800px]:text-[24px]'>Chaincrib</h1>
                 </a>
