@@ -11,7 +11,7 @@ function App() {
   return (
   <div>
     <Header  />
-    <div className="App px-20 max-[800px]:px-5 hero">
+    <div className="App px-10 max-[800px]:px-5 hero">
           <Hero  />
           <About  />
           <HowItWorks  />

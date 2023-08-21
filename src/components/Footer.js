@@ -2,7 +2,7 @@ import logo from '../images/logo.png';
 
 function Footer() {
     return (
-        <section className='mb-20 max-[800px]:mb-10 border-t pt-[130px]'>
+        <section className='mb-20 max-[800px]:mb-10 border-t pt-[130px] -mt-10'>
             <div className="flex max-[800px]:flex-col max-[800px]:w-full justify-between text-white ">
                 <div className='max-[800px]:hidden -mt-5'>
                     <div className="flex gap-5 items-center">
