@@ -5,7 +5,7 @@ function Footer() {
         <section className='mb-20 max-[800px]:mb-10 border-t pt-[130px]'>
             <div className="flex max-[800px]:flex-col max-[800px]:w-full justify-between text-white ">
                 <div className='max-[800px]:hidden -mt-5'>
-                    <div className="flex gap-5 items-center">
+                    <div className="flex gap-2 items-center">
                         <img src={logo} alt="" className='h-10' />
                         <h1 className='logo'>Chaincrib</h1>
                     </div>
@@ -63,7 +63,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='hidden max-[800px]:block max-[800px]:mt-10 max-[800px]:border-t max-[800px]:pt-5'>
-                    <div className="flex gap-3 items-center">
+                    <div className="flex gap-2 items-center">
                         <img src={logo} alt="" className='h-10' />
                         <h1 className='logo text-[40px] max-[800px]:text-[24px] font-[900]'>Chaincrib</h1>
                     </div>
