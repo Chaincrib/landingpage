@@ -16,21 +16,21 @@ function HowItWorks() {
                         <img src={howItWorks1} alt="" className='mx-auto w-16 h-18 max-[800px]:w-10 max-[800px]:h-12' />
                     </div>
                     <h2 className='text-[30px] font-medium mt-10 text-center font-ibm max-[800px]:text-[20px]'>Browse</h2>
-                    <p className='text-center px-4 text-[24px] max-[800px]:text-[18px]'>Browse our curated property listings</p>
+                    <p className='text-center px-4 text-[20px] max-[800px]:text-[18px]'>Browse our curated property listings</p>
                 </div>
                 <div className="w-[417px] max-[800px]:w-full h-[433px] max-[800px]:h-[297px] rounded-xl bg-white">
                     <div className="w-full h-[148px] max-[800px]:h-[87px] bg-blue-600 rounded-t-xl flex justify-center items-center">
                         <img src={howItWorks2} alt="" className='mx-auto w-[100px] max-[800px]:w-10 max-[800px]:h-12' />
                     </div>
                     <h2 className='text-[30px] font-medium mt-10 text-center font-ibm max-[800px]:text-[20px]'>Choose</h2>
-                    <p className='text-center px-5 text-[24px] max-[800px]:text-[18px]'>Choose an investment property, connect your Cardano-compatible wallet, and mint fractional ownership as a Cardano NFT.</p>
+                    <p className='text-center px-5 text-[20px] max-[800px]:text-[18px]'>Choose an investment property, connect your Cardano-compatible wallet, and mint fractional ownership as a Cardano NFT.</p>
                 </div>
                 <div className="w-[417px] max-[800px]:w-full h-[433px] max-[800px]:h-[297px] rounded-xl bg-white">
                     <div className="w-full h-[148px] max-[800px]:h-[87px] bg-black rounded-t-xl flex justify-center items-center">
                         <img src={howItWorks3} alt="" className='mx-auto w-24 h-18 max-[800px]:w-10 max-[800px]:h-12' />
                     </div>
                     <h2 className='text-[30px] font-medium mt-10 text-center font-ibm max-[800px]:text-[20px]'>Watch</h2>
-                    <p className='text-center px-4 text-[24px] max-[800px]:text-[18px]'>Sit back and watch your investments grow as you Earn monthly rental payouts or sell your NFTs whenever you wish on platforms like Jpg.store.</p>
+                    <p className='text-center px-4 text-[20px] max-[800px]:text-[18px]'>Sit back and watch your investments grow as you Earn monthly rental payouts or sell your NFTs whenever you wish on platforms like Jpg.store.</p>
                 </div>
             </div>
         </section>
