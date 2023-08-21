@@ -5,7 +5,7 @@ function FAQ() {
             <p className="text-[#CCCCCC] text-center text-[20px] max-[800px]:text-[18px] max-[800px]:px-5 font-source">Everything you need to know about  Chaincrib .</p>
 
             <div className="">
-                <div className="w-3/4 max-[800px]:w-full mx-auto">
+                <div className="w-3/5 max-[800px]:w-full mx-auto">
                 <div className="w-full flex items-center justify-center h-screen ">
                     <div className="w-full px-8 mx-auto mt-2 space-y-1 ">
                         <details className="rounded-lg py-5">
