@@ -2,7 +2,7 @@ import logo from '../images/logo.png';
 
 function Footer() {
     return (
-        <section className='mb-5 max-[800px]:mb-10 border-t pt-12'>
+        <section className='mb-5 max-[800px]:mb-10 border-t pt-20'>
             <div className="flex max-[800px]:flex-col max-[800px]:w-full justify-between text-white ">
                 <div className='max-[800px]:hidden -mt-5'>
                     <div className="flex gap-2 items-center">
@@ -14,7 +14,7 @@ function Footer() {
                 <div className='flex gap-32 max-[800px]:flex max-[800px]:gap-20 -mt-10 max-[800px]:text-[16px] font-source font-[600]'>
                     <div>
                         <h3 className='text-lg text-[#CCCCCC] mb-5'>Resources</h3>
-                        <ul className='max-[800px]:flex max-[800px]:flex-col flex flex-col gap-5 text-[#EAECF0]'>
+                        <ul className='max-[800px]:flex max-[800px]:flex-col flex flex-col gap-2 text-[#EAECF0]'>
                             <li>
                                 <a href="/">Deck</a>
                             </li>
@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                     <div>
                         <h3 className='text-lg text-[#CCCCCC] mb-5 '>Social</h3>
-                        <ul className='max-[800px]:flex max-[800px]:flex-col flex flex-col gap-5 text-[#EAECF0]'>
+                        <ul className='max-[800px]:flex max-[800px]:flex-col flex flex-col gap-2 text-[#EAECF0]'>
                             <li>
                                 <a href="/">Twitter</a>
                             </li>
@@ -53,7 +53,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className='mt-10'>
+                <div className='-mt-10'>
                     <h3 className='text-lg mb-5 font-source text-[14px] font-[600]'>Contact Us</h3>
                     <p>ChainCrib Holdings Limited</p>
                     <p>Zug, Switzerland</p>
