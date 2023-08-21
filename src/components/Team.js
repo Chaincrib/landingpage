@@ -17,7 +17,7 @@ function Team() {
                         <img src={polygon} alt="" className='w-12 h-12 absolute top-8 right-4 max-[800px]:right-4 max-[800px]:w-8 max-[800px]:h-8' />
                     </div>
                     <img src={star} alt="" className='w-[25px] h-[25px] absolute bottom-12 max-[800px]:bottom-20 max-[800px]:left-5 max-[800px]:w-[30px] max-[800px]:h-[30px]' />
-                    <div className='text-center mt-10 max-[800px]:mt-5 max-[800px]:-ml-8'>
+                    <div className='text-center mt-10 max-[800px]:mt-5 -ml-10 max-[800px]:-ml-8'>
                         <h2 className='text-[20px] text-white max-[800px]:text-[16px] font-ibm'>Irene</h2>
                         <p className='text-[#CCCCCC] text-[16px] max-[800px]:text-[14px] font-source'>Co-Founder / CEO</p>
                     </div>
@@ -30,7 +30,7 @@ function Team() {
                         <img src={polygon} alt="" className='w-12 h-12 absolute top-8 right-4 max-[800px]:right-4 max-[800px]:w-8 max-[800px]:h-8' />
                     </div>
                     <img src={star} alt="" className='w-[25px] h-[25px] absolute bottom-12 max-[800px]:bottom-20 max-[800px]:left-5 max-[800px]:w-[30px] max-[800px]:h-[30px]' />
-                    <div className='text-center mt-10 max-[800px]:mt-5 max-[800px]:-ml-8'>
+                    <div className='text-center mt-10 max-[800px]:mt-5 -ml-10 max-[800px]:-ml-8'>
                         <h2 className='text-[20px] text-white max-[800px]:text-[16px] font-ibm'>Miguel</h2>
                         <p className='text-[#CCCCCC] text-[16px] p-0 max-[800px]:px-0 max-[800px]:text-[14px] font-source'>Lead Developer: Blockchain expert, pushing the boundaries of tech and real estate fusion.</p>
                     </div>
@@ -43,7 +43,7 @@ function Team() {
                         <img src={polygon} alt="" className='w-12 h-12 absolute top-8 right-4 max-[800px]:right-4 max-[800px]:w-8 max-[800px]:h-8' />
                     </div>
                     <img src={star} alt="" className='w-[25px] h-[25px] absolute bottom-12 max-[800px]:bottom-20 max-[800px]:left-5 max-[800px]:w-[30px] max-[800px]:h-[30px]' />
-                    <div className='text-center mt-10 max-[800px]:mt-5 max-[800px]:-ml-8'>
+                    <div className='text-center mt-10 max-[800px]:mt-5 -ml-10 max-[800px]:-ml-8'>
                         <h2 className='text-[20px] text-white max-[800px]:text-[16px] font-ibm'>Jagatjit</h2>
                         <p className='text-[#CCCCCC] text-[16px] max-[800px]:px-0 max-[800px]:text-[14px] font-source'>Marketing Lead: Spearheading ChainCrib's global presence and community engagement.</p>
                     </div>
