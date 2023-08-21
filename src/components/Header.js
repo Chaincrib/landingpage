@@ -30,7 +30,7 @@ function Header() {
                 <a href="/" target='_blank' className="px-[24px] py-[8px] h-10 border rounded-full border-[#85B5F8]">FAQ</a>
             </div>
             <div className='max-[800px]:hidden'>
-                <a href="/" className="px-[18px] py-[8px] rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center">
+                <a href="/" className="px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center">
                     <span className='text-lg'>Join Discord</span>
                     <img src={discord} alt="discord" className='w-6 h-5' />
                 </a>
