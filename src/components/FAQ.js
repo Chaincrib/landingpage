@@ -1,10 +1,10 @@
 function FAQ() {
     return (
-        <section className="mt-64">
-            <h2 className="text-[#85B5F8] text-[36px] font-ibm text-center mb-5 max-[800px]:text-[30px]">Frequently asked questions</h2>
+        <section className="mt-64 -mb-48">
+            <h2 className="text-[#85B5F8] text-[36px] font-ibm text-center mb-2 max-[800px]:text-[30px]">Frequently asked questions</h2>
             <p className="text-[#CCCCCC] text-center text-[20px] max-[800px]:text-[18px] max-[800px]:px-5 font-source">Everything you need to know about  Chaincrib .</p>
 
-            <div className="">
+            <div className="-mt-16">
                 <div className="w-3/5 max-[800px]:w-full mx-auto">
                 <div className="w-full flex items-center justify-center h-screen ">
                     <div className="w-full px-8 mx-auto mt-2 space-y-1 ">
