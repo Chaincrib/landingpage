@@ -16,7 +16,7 @@ function toggleMenu() {
 
 function Header() {
     return (
-        <div className="w-full bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-6 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-0">
+        <div className="w-full bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-8 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-5">
             <div>
                 <a href="/" className='flex gap-2 items-center'>
                     <img src={logo} alt="logo" className='w-10 h-10' />
@@ -36,7 +36,7 @@ function Header() {
                 </a>
             </div>
             <div className='hidden max-[800px]:block'>
-                <img src={menuButton} alt="" onClick={toggleMenu} />
+                <img src={menuButton} className='h-5' alt="" onClick={toggleMenu} />
             </div>
         </div>
     )
