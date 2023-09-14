@@ -10,7 +10,7 @@ function toggleMenu() {
         menu.classList.add('flex', 'max-[800px]:hidden', 'text-white');
     } else {
         menu.classList.remove('flex', 'max-[800px]:hidden', 'text-white');
-        menu.classList.add('transition-transform', 'absolute', 'top-5', 'left-2', 'bg-white', 'flex', 'flex-col', 'w-[97%]', 'gap-x-0', 'gap-y-5', 'p-5', 'py-10', 'text-black', 'text-center', 'rounded');
+        menu.classList.add('absolute', 'top-5', 'left-2', 'bg-white', 'flex', 'flex-col', 'w-[97%]', 'gap-x-0', 'gap-y-5', 'p-5', 'py-10', 'text-black', 'text-center', 'rounded', 'duration-5000');
     }
 }
 
