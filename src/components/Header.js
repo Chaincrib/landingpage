@@ -10,7 +10,7 @@ function toggleMenu() {
         menu.classList.add('flex', 'max-[800px]:hidden', 'text-white');
     } else {
         menu.classList.remove('flex', 'max-[800px]:hidden', 'text-white');
-        menu.classList.add('transition-transform', 'absolute', 'top-5', 'bg-white', 'flex', 'flex-col', 'w-[320px]', 'gap-x-0', 'gap-y-5', 'p-10', 'text-black', 'text-center', 'rounded');
+        menu.classList.add('transition-transform', 'absolute', 'top-5', 'left-2', 'bg-white', 'flex', 'flex-col', 'w-[97%]', 'gap-x-0', 'gap-y-5', 'p-5', 'py-10', 'text-black', 'text-center', 'rounded');
     }
 }
 
@@ -24,10 +24,15 @@ function Header() {
                 </a>
             </div>
             <div id='menu' className="text-white flex gap-x-8 max-[800px]:hidden">
-                <a href="/" target='_blank' className="px-[24px] py-[8px] h-10 border rounded-full border-[#85B5F8]">About</a>
-                <a href="/" target='_blank' className="px-[24px] py-[8px] h-10 border rounded-full border-[#85B5F8]">How It Works</a>
-                <a href="/" target='_blank' className="px-[24px] py-[8px] h-10 border rounded-full border-[#85B5F8]">Team</a>
-                <a href="/" target='_blank' className="px-[24px] py-[8px] h-10 border rounded-full border-[#85B5F8]">FAQ</a>
+                <button className='text-3xl text-right' onClick={toggleMenu}>X</button>
+                <a href="/" target='_blank' className="font-semibold">About</a>
+                <a href="/" target='_blank' className="font-semibold">How It Works</a>
+                <a href="/" target='_blank' className="font-semibold">Team</a>
+                <a href="/" target='_blank' className="font-semibold">FAQ</a>
+                <a href="/" className="px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center justify-center">
+                    <span className='text-lg'>Join Discord</span>
+                    <img src={discord} alt="discord" className='w-6 h-5' />
+                </a>
             </div>
             <div className='max-[800px]:hidden'>
                 <a href="/" className="px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center">
