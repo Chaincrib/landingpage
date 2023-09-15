@@ -24,12 +24,12 @@ function Header() {
                 </a>
             </div>
             <div id='menu' className="text-white flex gap-x-8 max-[800px]:hidden">
-                <button className='text-3xl text-right' onClick={toggleMenu}>X</button>
+                <button className='text-3xl text-right hidden max-[800px]:block' onClick={toggleMenu}>X</button>
                 <a href="/" target='_blank' className="font-semibold">About</a>
                 <a href="/" target='_blank' className="font-semibold">How It Works</a>
                 <a href="/" target='_blank' className="font-semibold">Team</a>
                 <a href="/" target='_blank' className="font-semibold">FAQ</a>
-                <a href="/" className="px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] flex gap-x-2 items-center justify-center">
+                <a href="/" className="hidden px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] max-[800px]:flex gap-x-2 items-center justify-center">
                     <span className='text-lg'>Join Discord</span>
                     <img src={discord} alt="discord" className='w-6 h-5' />
                 </a>
