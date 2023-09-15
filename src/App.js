@@ -8,9 +8,10 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
 function App() {
+
   return (
   <div>
-    <Header  />
+    <Header />
     <div className="App px-20 max-[800px]:px-5 hero">
           <Hero  />
           <About  />

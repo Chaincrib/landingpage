@@ -78,12 +78,6 @@ details[open] summary:after {
     margin-inline: auto;
 }
 
-.mobile-menu-bg{
-    background-color: #110F27;
-    background-image: url(./images/Light-accent.png);
-    background-size: contain;
-}
-
 @media (max-width: 800px) {
     .logo{
         background: linear-gradient(91.51deg, #1656B9 -11.28%, rgba(129, 116, 255, 0.81) 116.57%);
@@ -94,5 +88,10 @@ details[open] summary:after {
         font-size: 24px;
     }
 
+    .mobile-menu-bg{
+        background-color: #110F27;
+        background-image: url(./images/Light-accent.png);
+        background-size: contain;
+    }
 }
 

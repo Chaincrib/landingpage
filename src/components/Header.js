@@ -10,11 +10,12 @@ function toggleMenu() {
         menu.classList.add('flex', 'max-[800px]:hidden', 'text-white');
     } else {
         menu.classList.remove('flex', 'max-[800px]:hidden', 'text-white');
-        menu.classList.add('absolute', 'top-5', 'left-2', 'bg-white', 'flex', 'flex-col', 'w-[97%]', 'gap-x-0', 'gap-y-5', 'p-5', 'py-10', 'text-black', 'text-center', 'rounded', 'duration-5000');
+        menu.classList.add('absolute', 'top-5', 'left-2', 'bg-white', 'flex', 'flex-col', 'w-[97%]', 'gap-x-0', 'gap-y-5', 'p-5', 'py-10', 'pt-0', 'text-black', 'text-center', 'rounded', 'duration-5000');
     }
 }
 
 function Header() {
+
     return (
         <div className="w-full bg-navy-blue flex items-center justify-around max-[800px]:justify-between max-[800px]:px-8 mb-10 backdrop-blur-xl pt-10 max-[800px]:pt-5">
             <div>
@@ -24,11 +25,11 @@ function Header() {
                 </a>
             </div>
             <div id='menu' className="text-white flex gap-x-8 max-[800px]:hidden mobile-menu-bg">
-                <button className='text-3xl text-right text-white hidden max-[800px]:block' onClick={toggleMenu}>X</button>
-                <a href="/" target='_blank' className="font-semibold rounded-full bg-[#1656B9] border border-[#2074F5] px-[24px] py-[8px] text-white">About</a>
-                <a href="/" target='_blank' className="font-semibold rounded-full bg-[#1656B9] border border-[#2074F5] px-[24px] py-[8px] text-white">How It Works</a>
-                <a href="/" target='_blank' className="font-semibold rounded-full bg-[#1656B9] border border-[#2074F5] px-[24px] py-[8px] text-white">Team</a>
-                <a href="/" target='_blank' className="font-semibold rounded-full bg-[#1656B9] border border-[#2074F5] px-[24px] py-[8px] text-white">FAQ</a>
+                <button className='text-3xl text-right text-white hidden max-[800px]:block mr-3' onClick={toggleMenu}>X</button>
+                <a href='#home' target='_blank' className="font-semibold max-[800px]:rounded-full max-[800px]:bg-[#1656B9] max-[800px]:border max-[800px]:border-[#2074F5] max-[800px]:px-[24px] max-[800px]:py-[8px] max-[800px]:text-white">About</a>
+                <a href='#about' target='_blank' className="font-semibold max-[800px]:rounded-full max-[800px]:bg-[#1656B9] max-[800px]:border max-[800px]:border-[#2074F5] max-[800px]:px-[24px] max-[800px]:py-[8px] max-[800px]:text-white">How It Works</a>
+                <a href="/" target='_blank' className="font-semibold max-[800px]:rounded-full max-[800px]:bg-[#1656B9] max-[800px]:border max-[800px]:border-[#2074F5] max-[800px]:px-[24px] max-[800px]:py-[8px] max-[800px]:text-white">Team</a>
+                <a href="/" target='_blank' className="font-semibold max-[800px]:rounded-full max-[800px]:bg-[#1656B9] max-[800px]:border max-[800px]:border-[#2074F5] max-[800px]:px-[24px] max-[800px]:py-[8px] max-[800px]:text-white">FAQ</a>
                 <a href="/" className="hidden px-[24px] py-[8px] h-10 rounded-full text-white bg-[#1656B9] border border-[#2074F5] max-[800px]:flex gap-x-2 items-center justify-center">
                     <span className='text-lg'>Join Discord</span>
                     <img src={discord} alt="discord" className='w-6 h-5' />
