@@ -6,8 +6,8 @@ function About() {
     return (
         <section className='-mt-10' id='about'>
             <div className="text-center">
-                <h2 className="text-[#85B5F8] text-[40px] font-semibold leading-loose max-[800px]:text-[30px] max-[800px]:text-start font-ibm">About ChainCrib</h2>
-                <p className="text-white text-[24px] max-[800px]:text-[18px] font-source max-[800px]:text-start">Redefining Real Estate Investment</p>
+                <h2 className="text-[#85B5F8] text-[40px] font-semibold leading-loose max-[800px]:text-[30px] font-ibm">About ChainCrib</h2>
+                <p className="text-white text-[24px] max-[800px]:text-[18px] font-source">Redefining Real Estate Investment</p>
             </div>
             <div className="flex max-[800px]:flex-col max-[800px]:gap-10 justify-center mt-20 max-[800px]:mt-10">
                 <div className="w-[415px] max-[800px]:w-full h-[482px] max-[800px]:h-[400px] bg-gradient-to-br from-[#85B5F8] via-[#8BB6F7] to-[#1656B9] rounded-2xl -z-50 text-center">

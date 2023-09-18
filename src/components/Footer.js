@@ -53,14 +53,12 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className='-mt-10'>
+                <div className='-mt-10 max-[800px]:mt-10'>
                     <h3 className='text-lg mb-5 font-source text-[14px] font-[600]'>Contact Us</h3>
                     <p>ChainCrib Holdings Limited</p>
                     <p>Zug, Switzerland</p>
                     <p>Email: <a href="mailto:info@chaincrib.com" className='underline-offset-1'>info@chaincrib.com</a></p>
-                    <div className='mt-10 max-[800px]:mb-5'>
-                        <a href="/" className='bg-white px-8 py-5 rounded-lg text-black font-medium'>Contact Form for immediate inquiries</a>
-                    </div>
+                    
                 </div>
                 <div className='hidden max-[800px]:block max-[800px]:mt-10 max-[800px]:border-t max-[800px]:pt-5'>
                     <div className="flex gap-2 items-center">
