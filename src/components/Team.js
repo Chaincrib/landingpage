@@ -6,7 +6,7 @@ import marketer from '../images/marketer.png';
 
 function Team() {
     return (
-        <section className='-mt-10'>
+        <section className='-mt-10' id='team'>
             <h2 className="text-[#85B5F8] text-center text-[40px] font-semibold mb-12">Meet The Team</h2>
             <div className="flex max-[800px]:flex-col justify-center gap-x-10 max-[800px]:gap-y-10 max-[800px]:w-full">
                 <div className="w-[300px] max-[800px]:w-2/3 max-[800px]:left-[25%] h-[300px] relative">

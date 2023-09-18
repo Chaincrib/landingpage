@@ -12,8 +12,8 @@ const CUSTOM_ANIMATION = {
 
   function Icon({ id, open }) {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d={`${id !== open ? 'M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z' : 'M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'}`} />
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d={`${id !== open ? 'M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z' : 'M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z'}`} />
         </svg>
       
     );
@@ -26,7 +26,7 @@ function FAQ() {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
     return (
-        <section className="mt-64 max-[800px]:mt-32 max-[800px]:mb-64 max-[800px]:px-0">
+        <section className="mt-64 max-[800px]:mt-32 max-[800px]:mb-64 max-[800px]:px-0" id="faq">
             <h2 className="text-[#85B5F8] text-[36px] font-ibm text-center mb-2 max-[800px]:text-[30px]">Frequently asked questions</h2>
             <p className="text-[#CCCCCC] text-center text-[20px] max-[800px]:text-[18px] max-[800px]:px-5 font-source mb-20">Everything you need to know about  Chaincrib .</p>
 

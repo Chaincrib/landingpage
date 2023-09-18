@@ -4,7 +4,7 @@ import howItWorks3 from '../images/how-it-works-3.png';
 
 function HowItWorks() {
     return (
-        <section className='-mt-12'>
+        <section className='-mt-12' id='how'>
             <div className="text-center">
                 <h2 className="text-[#85B5F8] text-[40px] leading-loose max-[800px]:text-[30px] font-ibm max-[800px]:font-[600]">How ChainCrib Works</h2>
                 <p className="text-white text-[28px] max-[800px]:text-[18px] py-5 font-source">Imagine earning rental income from prime global properties without owning them outright.</p>
