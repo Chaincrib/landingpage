@@ -21,6 +21,10 @@ function Header() {
         const section = btn.getAttribute('target');
         const target = document.getElementById(section);
         target.scrollIntoView({behavior: 'smooth'});
+
+        if (window.innerWidth < 800) {
+            toggleMenu();
+        }
     }
 
     return (
