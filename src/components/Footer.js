@@ -45,7 +45,7 @@ function Footer() {
                                 <a href="https://t.me/chaincrib" target='_blank' rel='noreferrer'>Telegram</a>
                             </li>
                             <li>
-                                <a href="/" target='_blank' rel='noreferrer'>Instagram</a>
+                                <a href="https://www.instagram.com/chaincrib/" target='_blank' rel='noreferrer'>Instagram</a>
                             </li>
                             <li>
                                 <a href="https://chaincrib.medium.com/" target='_blank' rel='noreferrer'>Medium</a>

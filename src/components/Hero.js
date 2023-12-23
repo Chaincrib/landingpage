@@ -18,8 +18,8 @@ function Hero() {
                 </a>
             </div>
             <div className="flex max-[800px]:flex-col justify-center gap-x-10 max-[800px]:gap-y-10 mt-20 max-[800px]:mt-16">
-                <img src={heroImgLeft} alt="" className='w-[50%] max-[800px]:w-full' />
-                <img src={heroImgRight} alt="" className='w-[50%] max-[800px]:w-full' />
+                <img src={heroImgLeft} alt="" className='w-[80%] max-[800px]:w-full' />
+                {/* <img src={heroImgRight} alt="" className='w-[50%] max-[800px]:w-full' /> */}
             </div>
         </section>
     ) 
