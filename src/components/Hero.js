@@ -1,5 +1,5 @@
-import heroImgLeft from '../images/hero-img-left.png';
-import heroImgRight from '../images/hero-img-right.png';
+import heroImgLeft from '../images/hero-1.jpeg';
+import heroImgRight from '../images/hero-2.jpeg';
 
 function Hero() {
     return (
@@ -17,9 +17,9 @@ function Hero() {
                     </svg>
                 </a>
             </div>
-            <div className="flex max-[800px]:flex-col justify-center gap-x-5 max-[800px]:gap-y-10 mt-20 max-[800px]:mt-16">
-                <img src={heroImgLeft} alt=""  />
-                <img src={heroImgRight} alt=""  />
+            <div className="flex max-[800px]:flex-col justify-center gap-x-10 max-[800px]:gap-y-10 mt-20 max-[800px]:mt-16">
+                <img src={heroImgLeft} alt="" className='w-[50%] max-[800px]:w-full' />
+                <img src={heroImgRight} alt="" className='w-[50%] max-[800px]:w-full' />
             </div>
         </section>
     ) 

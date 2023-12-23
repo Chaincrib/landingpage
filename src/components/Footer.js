@@ -33,22 +33,22 @@ function Footer() {
                         <h3 className='text-lg text-[#CCCCCC] mb-5 '>Social</h3>
                         <ul className='max-[800px]:flex max-[800px]:flex-col flex flex-col gap-2 text-[#EAECF0]'>
                             <li>
-                                <a href="/">Twitter</a>
+                                <a href="https://x.com/chaincrib/" target='_blank' rel='noreferrer'>Twitter</a>
                             </li>
                             <li>
-                                <a href="/">Linkedin</a>
+                                <a href="/" target='_blank' rel='noreferrer'>Linkedin</a>
                             </li>
                             <li>
-                                <a href="/">Discord</a>
+                                <a href="/" target='_blank' rel='noreferrer'>Discord</a>
                             </li>
                             <li>
-                                <a href="/">Telegram</a>
+                                <a href="https://t.me/chaincrib" target='_blank' rel='noreferrer'>Telegram</a>
                             </li>
                             <li>
-                                <a href="/">Instagram</a>
+                                <a href="/" target='_blank' rel='noreferrer'>Instagram</a>
                             </li>
                             <li>
-                                <a href="/">Medium</a>
+                                <a href="https://chaincrib.medium.com/" target='_blank' rel='noreferrer'>Medium</a>
                             </li>
                         </ul>
                     </div>
