@@ -5,8 +5,8 @@ function Hero() {
     return (
         <section className='max-[800px]:pt-0 max-[800px]:mt-20 mt-40' id='home'>
             <div className="w-full mb-10 max-[800px]:px-2 flex flex-col items-center justify-center text-white text-center max-[800px]:text-start">
-                <h1 className="text-[60px] max-[800px]:text-4xl font-bold mb-4 font-ibm">Invest In Prime Rental Properties</h1>
-                <p className="text-[20px] px-52 max-[800px]:px-0 text-[#CCCCCC] font-source max-[800px]:my-5">Unlock global high-return locations, invest fractionally in real estate with ChainCrib, and earn rental income in just 45 days.</p>
+                <h1 className="text-[60px] max-[800px]:text-4xl font-bold mb-4 font-ibm">Reinventing Real Estate Ownership</h1>
+                <p className="text-[20px] px-52 max-[800px]:px-0 text-[#CCCCCC] font-source max-[800px]:my-5">Unlock the benefits of real world assets (RWA) with Chaincrib, as you can buy into the real estate market through fractional, tokenized ownership, powered by the Cardano blockchain.</p>
             </div>
             <div className="flex items-center justify-center gap-x-2 max-[800px]:gap-y-5 max-[800px]:flex-col-reverse">
                 <a href="https://chaincrib.medium.com/revolutionizing-real-estate-investments-introducing-chaincrib-feae1c14b4ca" target='_blank' rel='noreferrer' className="bg-white px-8 py-5 max-[800px]:py-3 rounded-lg font-medium max-[800px]:w-full max-[800px]:text-center">Learn More</a>
