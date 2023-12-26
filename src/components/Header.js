@@ -48,7 +48,7 @@ function Header() {
     }
 
     return (
-        <div className='w-full p-10 max-[800px]:absolute max-[800px]:top-0 max-[800px]:left-0 flex justify-between'>
+        <div className='w-full p-10 max-[800px]:absolute max-[800px]:top-0 max-[800px]:left-0 flex justify-between items-center'>
             <div>
                 <a href='/' className='flex gap-2 items-center'>
                 <img src={logo} alt="logo" className='w-10 h-10' />

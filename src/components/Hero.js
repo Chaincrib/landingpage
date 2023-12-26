@@ -3,7 +3,7 @@ import heroImgRight from '../images/hero-2.jpeg';
 
 function Hero() {
     return (
-        <section className='max-[800px]:pt-0 mt-20' id='home'>
+        <section className='max-[800px]:pt-0 mt-40 max-[800px]:mt-20' id='home'>
             <div className="w-full mb-10 max-[800px]:px-2 flex flex-col items-center justify-center text-white text-center max-[800px]:text-start">
                 <h1 className="text-[60px] max-[800px]:text-4xl font-bold mb-4 font-ibm">Reinventing Real Estate Ownership</h1>
                 <p className="text-[20px] px-52 max-[800px]:px-0 text-[#CCCCCC] font-source max-[800px]:my-5">Unlock the benefits of real world assets (RWA) with Chaincrib, as you can buy into the real estate market through fractional, tokenized ownership, powered by the Cardano blockchain.</p>
