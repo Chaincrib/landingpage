@@ -8,7 +8,7 @@ function Hero() {
                 <h1 className="text-[60px] max-[800px]:text-4xl font-bold mb-4 font-ibm">Reinventing Real Estate Ownership</h1>
                 <p className="text-[20px] px-52 max-[800px]:px-0 text-[#CCCCCC] font-source max-[800px]:my-5">Unlock the benefits of real world assets (RWA) with Chaincrib, as you can buy into the real estate market through fractional, tokenized ownership, powered by the Cardano blockchain.</p>
             </div>
-            <div className="flex items-center justify-center gap-x-2 max-[800px]:gap-y-5 max-[800px]:flex-col-reverse">
+            <div className="flex items-center justify-center gap-x-2 max-[800px]:gap-y-5 max-[800px]:flex-col">
                 <a href="https://chaincrib.medium.com/revolutionizing-real-estate-investments-introducing-chaincrib-feae1c14b4ca" target='_blank' rel='noreferrer' className="bg-white px-8 py-5 max-[800px]:py-3 rounded-lg font-medium max-[800px]:w-full max-[800px]:text-center">Learn More</a>
 
                 <a href="https://twitter.com/chaincrib" target='_blank' rel='noreferrer' className="flex gap-x-2 bg-[#1656B9] px-8 py-5 max-[800px]:py-3 text-white rounded-lg font-medium max-[800px]:w-full max-[800px]:justify-center">Follow On Twitter
