@@ -11,7 +11,7 @@ function Hero() {
             <div className="flex items-center justify-center gap-x-2 max-[800px]:gap-y-5 max-[800px]:flex-col-reverse">
                 <a href="https://chaincrib.medium.com/revolutionizing-real-estate-investments-introducing-chaincrib-feae1c14b4ca" target='_blank' rel='noreferrer' className="bg-white px-8 py-5 max-[800px]:py-3 rounded-lg font-medium max-[800px]:w-full max-[800px]:text-center">Learn More</a>
 
-                <a href="https://twitter.com/chaincrib" target='_blank' rel='noreferrer' className="flex gap-x-2 bg-[#1656B9] px-8 py-5 max-[800px]:py-3 text-white rounded-lg font-medium max-[800px]:w-full max-[800px]:justify-center">Join Our Community 
+                <a href="https://twitter.com/chaincrib" target='_blank' rel='noreferrer' className="flex gap-x-2 bg-[#1656B9] px-8 py-5 max-[800px]:py-3 text-white rounded-lg font-medium max-[800px]:w-full max-[800px]:justify-center">Follow On Twitter
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                     </svg>
