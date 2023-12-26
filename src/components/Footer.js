@@ -36,7 +36,7 @@ function Footer() {
                                 <a href="https://x.com/chaincrib/" target='_blank' rel='noreferrer'>Twitter</a>
                             </li>
                             <li>
-                                <a href="/" target='_blank' rel='noreferrer'>Linkedin</a>
+                                <a href="http://www.linkedin.com/company/chaincrib/" target='_blank' rel='noreferrer'>Linkedin</a>
                             </li>
                             {/* <li>
                                 <a href="/" target='_blank' rel='noreferrer'>Discord</a>
