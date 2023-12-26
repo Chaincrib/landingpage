@@ -22,7 +22,7 @@ function Hero() {
                 <img src={heroImgRight} alt="" className='w-[50%] max-[800px]:w-full' />
             </div>
         </section>
-    ) 
+    )
 }
 
 export default Hero;
