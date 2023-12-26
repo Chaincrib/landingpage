@@ -3,7 +3,7 @@ import './App.css';
 import Hero from "./components/Hero";
 import About from "./components/About";
 import HowItWorks from "./components/HowItWorks";
-import Team from "./components/Team";
+// import Team from "./components/Team";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
@@ -16,7 +16,7 @@ function App() {
           <Hero  />
           <About  />
           <HowItWorks  />
-        <Team  />
+        {/* <Team  /> */}
         <FAQ  />
         <Footer  />
       </div>

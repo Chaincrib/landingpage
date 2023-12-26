@@ -34,7 +34,7 @@ function FAQ() {
                 <Accordion open={open === 1} animate={CUSTOM_ANIMATION} icon={<Icon id={1} open={open} />}>
                     <AccordionHeader onClick={() => handleOpen(1)} className="text-white hover:text-white text-[18px]">What is ChainCrib?</AccordionHeader>
                     <AccordionBody className='text-[#CCCCCC] text-[16px]'>
-                        ChainCrib is a pioneering web3 real estate platform allowing users to invest in high-return rental properties without full ownership.
+                    ChainCrib is a web3 real estate investment platform allowing users to invest in high-return rental properties.
                     </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 2} animate={CUSTOM_ANIMATION} icon={<Icon id={2} open={open} />}>

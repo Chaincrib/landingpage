@@ -21,12 +21,12 @@ function Footer() {
                             <li>
                                 <a href="/">Terms & Conditions</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="/">Privacy Policy</a>
                             </li>
                             <li>
                                 <a href="/">EULA</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
@@ -38,15 +38,15 @@ function Footer() {
                             <li>
                                 <a href="/" target='_blank' rel='noreferrer'>Linkedin</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="/" target='_blank' rel='noreferrer'>Discord</a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="https://t.me/chaincrib" target='_blank' rel='noreferrer'>Telegram</a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="https://www.instagram.com/chaincrib/" target='_blank' rel='noreferrer'>Instagram</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="https://chaincrib.medium.com/" target='_blank' rel='noreferrer'>Medium</a>
                             </li>
@@ -55,7 +55,7 @@ function Footer() {
                 </div>
                 <div className='-mt-10 max-[800px]:mt-10'>
                     <h3 className='text-lg mb-5 font-source text-[14px] font-[600]'>Contact Us</h3>
-                    <p>ChainCrib Holdings Limited</p>
+                    <p>ChainCrib Technologies DAO LLC</p>
                     <p>Zug, Switzerland</p>
                     <p>Email: <a href="mailto:info@chaincrib.com" className='underline-offset-1'>info@chaincrib.com</a></p>
                     
