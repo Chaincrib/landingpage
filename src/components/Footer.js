@@ -19,7 +19,7 @@ function Footer() {
                                 <a href="/">Deck</a>
                             </li>
                             <li>
-                                <a href="/">Terms & Conditions</a>
+                                <a href="https://docs.chaincrib.com/terms-and-conditions" target='_blank' rel='noreferrer'>Terms & Conditions</a>
                             </li>
                             {/* <li>
                                 <a href="/">Privacy Policy</a>
