@@ -87,7 +87,7 @@ function Header() {
             </div>
             <div id='menu' className={`hidden max-[800px]:flex-col w-full mobile-menu-bg gap-y-8 font-bold top-0 p-5 z-50`}>
                 <div className="flex">
-                    <button id='close-btn' className='text-3xl ml-auto text-white hidden max-[800px]:block bg-black w-5' onClick={toggleMenu}>X</button>
+                    <button id='close-btn' className='text-3xl ml-auto text-white hidden max-[800px]:block w-5' onClick={toggleMenu}>X</button>
                 </div>
                 <button className='text-white rounded-full bg-[#1656B9] border-[#2074F5] py-3' onClick={(e) => scrollToContent(e)} target='about'>About</button>
                 <button className='text-white rounded-full bg-[#1656B9] border-[#2074F5] py-3' onClick={(e) => scrollToContent(e)} target='how'>How It Works</button>
