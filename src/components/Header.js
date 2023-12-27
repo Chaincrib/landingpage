@@ -1,6 +1,7 @@
 // import discord from '../images/discord.png';
 import menuButton from '../images/menu.png';
 import logo from '../images/logo.png';
+import { useEffect } from 'react';
 
 function toggleMenu() {
     const menu = document.getElementById('menu');
@@ -27,6 +28,30 @@ function handleOrientationChange(mediaQueryList) {
   }
 
 function Header() {
+    useEffect(() => {
+        const handleDocumentClick = (event) => {
+          const menu = document.getElementById('menu');
+          const menuButton = document.getElementById('menu-button');
+          const clickedElement = event.target;
+    
+          if (
+            menu.classList.contains('max-[800px]:flex', 'absolute') &&
+            !menu.contains(clickedElement) &&
+            !menuButton.contains(clickedElement)
+          ) {
+            // Check if the menu is open and the click is outside the menu or the menu button
+            toggleMenu();
+          }
+        };
+    
+        document.addEventListener('click', handleDocumentClick);
+    
+        return () => {
+          document.removeEventListener('click', handleDocumentClick);
+        };
+      }, []); // Empty dependency array to ensure the effect runs once on mount
+    
+
     // Create a media query for orientation
     const orientationMediaQuery = window.matchMedia('(orientation: portrait)');
 
@@ -60,14 +85,16 @@ function Header() {
                 <button className='text-white' onClick={(e) => scrollToContent(e)} target='how'>How It Works</button>
                 <button className='text-white' onClick={(e) => scrollToContent(e)} target='faq'>FAQ</button>
             </div>
-            <div id='menu' className={`hidden max-[800px]:flex-col w-full mobile-menu-bg gap-y-8 font-bold top-0 p-5`}>
-                <button className='text-3xl text-right text-white hidden max-[800px]:block mr-3' onClick={toggleMenu}>X</button>
+            <div id='menu' className={`hidden max-[800px]:flex-col w-full mobile-menu-bg gap-y-8 font-bold top-0 p-5 z-50`}>
+                <div className="flex">
+                    <button id='close-btn' className='text-3xl ml-auto text-white hidden max-[800px]:block bg-black w-5' onClick={toggleMenu}>X</button>
+                </div>
                 <button className='text-white rounded-full bg-[#1656B9] border-[#2074F5] py-3' onClick={(e) => scrollToContent(e)} target='about'>About</button>
                 <button className='text-white rounded-full bg-[#1656B9] border-[#2074F5] py-3' onClick={(e) => scrollToContent(e)} target='how'>How It Works</button>
                 <button className='text-white rounded-full bg-[#1656B9] border-[#2074F5] py-3' onClick={(e) => scrollToContent(e)} target='faq'>FAQ</button>
             </div>
             <div className='hidden max-[800px]:block'>
-               <img src={menuButton} className='h-5' alt="" onClick={toggleMenu} />
+               <img id='menu-button' src={menuButton} className='h-5' alt="" onClick={toggleMenu} />
             </div>
         </div>
     )
